@@ -1,0 +1,93 @@
+/* TAG STYLES */
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 13px;
+}
+
+/* CLASS STYLES */
+
+.card {
+  width: 800px;
+  height: 250px;
+  margin: 300px auto;
+  border-radius: 8px;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+.article-image {
+  height: 100%;
+  width: 300px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 8px 0 0 8px;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(217, 19%, 35%);
+  margin-top: 0;
+}
+
+.description {
+  color: hsl(214, 17%, 51%);
+}
+
+.name-paragraph {
+  font-weight: 900;
+  color: hsl(217, 19%, 35%);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.date-paragraph {
+  color: hsl(214, 17%, 51%);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.article-info {
+  width: 450px;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.author-info {
+  margin-top: 20px;
+  position: relative;
+}
+
+.author-image {
+  height: 50px;
+  border-radius: 100%;
+}
+
+.name-and-date {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.share-image {
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.icon-span {
+  background-color: hsl(210, 46%, 95%);
+  margin-top: 14px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 0;
+  border-radius: 100%;
+}
